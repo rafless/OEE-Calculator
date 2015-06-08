@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OEE Calculator</title>
+    <script src="oee_calculator.js"></script>
+
+    <script>
+
+
+    oeeCalculator.shiftLengthValue = 480;
+    oeeCalculator.shortBrakesValue = 30;
+    oeeCalculator.mealBrakeValue = 30;
+    oeeCalculator.downtimeValue = 47;
+    oeeCalculator.idealRunRateValue = 60;
+    oeeCalculator.totalPiecesValue = 19271;
+    oeeCalculator.rejectPiecesValue = 423;
+
+
+
+    // Planned Production Time value
+    var plannedProductionTimeValue = oeeCalculator.calculatePlannedProductionTime();
+   // Asign the result to the object property
+    oeeCalculator.plannedProductionTimeValue = plannedProductionTimeValue;
+
+
+
+    // Operating Time value
+    var operatingTimeValue = oeeCalculator.calculateOperatingTime();
+    // Asign the result to the object property
+    oeeCalculator.operatingTimeValue = operatingTimeValue;
+
+
+    // Good Pieces value
+    var goodPiecesValue = oeeCalculator.calculateGoodPieces();
+    // Asign the result to the object property
+    oeeCalculator.operatingGoodPiecesValue = goodPiecesValue;
+
+
+
+
+
+
+console.log(plannedProductionTimeValue);
+
+console.log(operatingTimeValue);
+
+console.log(goodPiecesValue);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

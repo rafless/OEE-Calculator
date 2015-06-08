@@ -1,4 +1,4 @@
-# proyects
+# OEE Calculator
 Rafless Front-End Proyects
 
-Estos proyectos están relacionados con el desarrollo de aplicaciones web front-end
+Este proyecto es una calculadora HTML, Javascript para calcular el Overall Equipment Effectiveness (OEE)
